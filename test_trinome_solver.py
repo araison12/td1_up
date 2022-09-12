@@ -8,9 +8,9 @@ from td1.trinome_solver import solver
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument("-a", help="Value of a", required=True)
-parser.add_argument("-b", help="Value of b", required=True)
-parser.add_argument("-c", help="Value of c", required=True)
+parser.add_argument("-a", help="Value of a", required=True, type=float)
+parser.add_argument("-b", help="Value of b", required=True, type=float)
+parser.add_argument("-c", help="Value of c", required=True, type=float)
 
 args = parser.parse_args()
 
